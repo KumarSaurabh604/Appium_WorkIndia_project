@@ -1,0 +1,14 @@
+Pages\MainPage.class
+Pages\SelectLanguage.class
+Pages\CreateJobAlert.class
+StepDef\UpdateProfileStepDef.class
+StepDef\MainpageStepDef.class
+Base\BaseClass.class
+Pages\EducationLevelDetails.class
+StepDef\WrongRegistrationDef.class
+Runner\RunnerClass.class
+StepDef\JobAlertStefDef.class
+Utils\CommonClass.class
+Pages\CitySelectionDetails.class
+Pages\GeneralDetails.class
+Pages\UpdateUserProfile.class

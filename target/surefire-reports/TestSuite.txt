@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 186.61 s <<< FAILURE! - in TestSuite
+Runner.RunnerClass.feature[Create a Job Alert for me in WorkIndia Application](1)  Time elapsed: 51.372 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: null
+Caused by: java.lang.AssertionError: null
+
+Runner.RunnerClass.feature[WorkIndia Application Invalid Registration](4)  Time elapsed: 15.028 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: null
+Caused by: java.lang.AssertionError: null
+

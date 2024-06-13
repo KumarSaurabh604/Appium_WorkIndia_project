@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="184.10263">
+<testcase classname="Create a Job Alert for me in WorkIndia Application" name="User Cant create job alert with invalid inputs" time="50.824297">
+<failure message="java.lang.AssertionError: null&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:93)&#13;&#10;&#9;at org.testng.Assert.assertNotEquals(Assert.java:897)&#13;&#10;&#9;at org.testng.Assert.assertNotEquals(Assert.java:902)&#13;&#10;&#9;at StepDef.JobAlertStefDef.user_will_click_on_Job_Alert_submit_button(JobAlertStefDef.java:35)&#13;&#10;&#9;at ✽.Then User will click on Job Alert submit button(JobAlert.feature:25)&#13;&#10;"><![CDATA[Given User has already on Registration page.................................passed
+When User enter the "Aadarsh" and "1234567897"..............................passed
+And User click on Submit button.............................................passed
+And User will Select the city...............................................passed
+And User will enter the nearest "Karol Bagh"................................passed
+Then User will click on Submit button.......................................passed
+Then User will select the Gender , User chooses the qualification , User select the school medium.passed
+Then User select the english fluency........................................passed
+Then User select the experience and User select the age.....................passed
+Then User chooses the interest area.........................................passed
+Then User will click on Submit btn..........................................passed
+Then User will click on Specialization......................................passed
+Then User will select the specialiazation He Has............................passed
+Then User will click on Specialization Submit button........................passed
+Then User will click on Degree..............................................passed
+Then User will Select the Degree He Has.....................................passed
+Then User will Click On Degree Submit button................................passed
+Then User will Select Language of his/her Choice............................passed
+Then User will Click on Profile Icon, User Will Click On My Profile Icon....passed
+Then User will Click On create Job Alert....................................passed
+Then User will click on Job Alert submit button.............................failed
+
+StackTrace:
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotEquals(Assert.java:897)
+	at org.testng.Assert.assertNotEquals(Assert.java:902)
+	at StepDef.JobAlertStefDef.user_will_click_on_Job_Alert_submit_button(JobAlertStefDef.java:35)
+	at ✽.Then User will click on Job Alert submit button(JobAlert.feature:25)
+]]></failure>
+</testcase>
+<testcase classname="Valid WorkIndia Application" name="User with enter Name and the Mobile Number in to the Application" time="24.250473">
+<system-out><![CDATA[Given User has already on Registration page.................................passed
+When User enter the "Saurabh" and "9876543219"..............................passed
+And User click on Submit button.............................................passed
+And User will Select the city...............................................passed
+And User will enter the nearest "Karol Bagh"................................passed
+Then User will click on Submit button.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Valid WorkIndia Application" name="User Filling General Details" time="43.495446">
+<system-out><![CDATA[Given User has already on Registration page.................................passed
+When User enter the "Saurabh Soni" and "1234567890".........................passed
+And User click on Submit button.............................................passed
+And User will Select the city...............................................passed
+And User will enter the nearest "Karol Bagh"................................passed
+Then User will click on Submit button.......................................passed
+Then User will select the Gender , User chooses the qualification , User select the school medium.passed
+Then User select the english fluency........................................passed
+Then User select the experience and User select the age.....................passed
+Then User chooses the interest area.........................................passed
+Then User will click on Submit btn..........................................passed
+Then User will click on Specialization......................................passed
+Then User will select the specialiazation He Has............................passed
+Then User will click on Specialization Submit button........................passed
+Then User will click on Degree..............................................passed
+Then User will Select the Degree He Has.....................................passed
+Then User will Click On Degree Submit button................................passed
+Then User will Select Language of his/her Choice............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Update Profile WorkIndia Application" name="User Filling General Details to Update Profile" time="50.363099">
+<system-out><![CDATA[Given User has already on Registration page.................................passed
+When User enter the "Rajat" and "9876543123"................................passed
+And User click on Submit button.............................................passed
+And User will Select the city...............................................passed
+And User will enter the nearest "Karol Bagh"................................passed
+Then User will click on Submit button.......................................passed
+Then User will select the Gender , User chooses the qualification , User select the school medium.passed
+Then User select the english fluency........................................passed
+Then User select the experience and User select the age.....................passed
+Then User chooses the interest area.........................................passed
+Then User will click on Submit btn..........................................passed
+Then User will click on Specialization......................................passed
+Then User will select the specialiazation He Has............................passed
+Then User will click on Specialization Submit button........................passed
+Then User will click on Degree..............................................passed
+Then User will Select the Degree He Has.....................................passed
+Then User will Click On Degree Submit button................................passed
+Then User will Select Language of his/her Choice............................passed
+Then User will Click on Profile Icon, User Will Click On My Profile Icon....passed
+Then User Will Select School Medium.........................................passed
+Then User Will Select Qualification.........................................passed
+Then User will click on Back button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="WorkIndia Application Invalid Registration" name="User with enter Name and Invalid Mobile Number in to the Application" time="15.169315">
+<failure message="java.lang.AssertionError: null&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:93)&#13;&#10;&#9;at org.testng.Assert.assertNotEquals(Assert.java:897)&#13;&#10;&#9;at org.testng.Assert.assertNotEquals(Assert.java:902)&#13;&#10;&#9;at StepDef.WrongRegistrationDef.user_click_on_Submit_button_of_Application(WrongRegistrationDef.java:50)&#13;&#10;&#9;at ✽.Then User click on Submit button of Application(WronRegistration.feature:7)&#13;&#10;"><![CDATA[Given User has already on the  Registration page of Application.............passed
+When User enter the Entries "Rajat" and "96509157"..........................passed
+Then User click on Submit button of Application.............................failed
+
+StackTrace:
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotEquals(Assert.java:897)
+	at org.testng.Assert.assertNotEquals(Assert.java:902)
+	at StepDef.WrongRegistrationDef.user_click_on_Submit_button_of_Application(WrongRegistrationDef.java:50)
+	at ✽.Then User click on Submit button of Application(WronRegistration.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
